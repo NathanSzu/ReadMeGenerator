@@ -22,7 +22,7 @@
   ## <a id='Usage' style='color:white;'>Usage</a>
   Run with 'node index.js' in the console and follow the prompts.
 
-  Demo Video: <a href=''></a>
+  <a href='https://youtu.be/SwKD269x12w'>Demo Video</a>
 
   ## <a id='License' style='color:white;'>License</a>
   MIT License
