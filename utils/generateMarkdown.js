@@ -1,9 +1,10 @@
 // function to generate markdown for README
-function generateMarkdown(data, profile) {
+function generateMarkdown(data, profile, license, userImage, badge) {
 
   
 
   return `# ${data.title}
+  ![License](${badge})
   ## Description
   ${data.description}
   ## Table of Contents
@@ -22,15 +23,22 @@ function generateMarkdown(data, profile) {
 
   ## <a id='Installation' style='color:white;'>Installation</a>
   ${data.installation}
+
   ## <a id='Usage' style='color:white;'>Usage</a>
   ${data.usage}
+
   ## <a id='License' style='color:white;'>License</a>
-  ${data.license}
+  ${license}
+
   ## <a id='Contribution' style='color:white;'>Contribution</a>
   ${data.contribution}
+
   ## <a id='Tests' style='color:white;'>Tests</a>
   ${data.test}
-  ## <a id='Questions' style='color:white;'>Questions</a>
+
+  ## <a id='Questions' style='color:white;'>Questions - Contact Me</a>
+  <img style='width:150px' src='${userImage}'>
+
   GitHub Username: ${data.username}
 
   Github Profile: <a href='${profile}'>${profile}</a>
